@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('17010.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px;
+}
+
+form .title{
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+form label{
+    margin-bottom: 35px;
+}
+
+form label .fa-solid{
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
+
+form label input{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: solid 1px black;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder{
+    color: black;
+}
+
+form .link{
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+form button{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}

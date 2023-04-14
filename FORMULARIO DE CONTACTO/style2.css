@@ -1,0 +1,28 @@
+body{
+    background: url("12223.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.cabeza{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(223, 173, 173, 0.352);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #000000;
+    font-size: 20px; 
+    overflow: 20px;
+}
+h2{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(223, 173, 173, 0.352);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    border-radius: 10px;
+    color: #000000;
+    width: 90px;
+    height: 35px;
+}
