@@ -1,8 +1,9 @@
 function validar() {
-    var nombre, apellidos, correo, edad, country, number, genero;
+    var nombre, apellidos, correo, contraseña, edad, country, number, genero;
     nombre = document.getElementById("nombre").value;
     apellidos = document.getElementById("apellidos").value;
     correo = document.getElementById("correo").value;
+    contraseña = document.getElementById("password").value;
     edad = document.getElementById("edad").value;
     country = document.getElementById("country").value;
     number = document.getElementById("number").value;
@@ -12,13 +13,13 @@ function validar() {
         alert("El campo esta vacio");
         return false;
     }
-    else if(nombre.leght>30) {
+    else if(nombre.lenght>10) {
         alert("El nombre es muy largo")
-        return false;
     }
-    else if(apellidos.leght>30) {
+    else if(apellidos.lenght>10) {
         alert("El apellido es muy largo")
-        return false;
     }
-    
+    else if(password.lenght>10) {
+        alert("El apellido es muy largo")
+    }
 }
