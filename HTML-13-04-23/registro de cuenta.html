@@ -8,25 +8,26 @@
     <title>Registro de cuenta</title>
 </head>
 <body>
-    <section class="form-register">
+    <form method="post" class="form-register" onsubmit="return validar();">
         <h4>Registration Form</h4>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Name">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Last name">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Email">
-        <input class="controls" type="password" name="password" id="password" placeholder="password">
-        <input class="controls" type="number" name="edad" id="edad" placeholder="Age">
-        <input class="controls" type="text" name="country" id="country" placeholder="Country">
-        <input class="controls" type="number" name="Phone number" id="number" placeholder="Phone number">
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Name" class="input-48" required>
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Last name" class="input-48" required>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Email" class="input-48" required>
+        <input class="controls" type="password" name="password" id="password" placeholder="password" class="input-48" required>
+        <input class="controls" type="number" name="edad" id="edad" placeholder="Age" class="input-48" required>
+        <input class="controls" type="text" name="country" id="country" placeholder="Country" class="input-48" required>
+        <input class="controls" type="number" name="Phone number" id="number" placeholder="Phone number" class="input-48" required>
         <h4 class="genero">Gender</h4>
             <center>
             <label class="masculino" for="masculino"><h4>Male</h4></label>
-            <input type="radio" name="genero">
+            <input type="radio" name="genero" class="input-48" required>
             <label class="femenino" for="femenino"><h4>Female</h4></label>
-            <input type="radio" name="genero">
+            <input type="radio" name="genero" class="input-48" required>
             </center>
         <p>I agree with the <a href="Terminos y condiciones.html">terms and Conditions
         </a></p>
         <a href="index.html"><input class="botons" type="submit" value="Register"></a>
-      </section>
+    </form>
+    <script src="script.js"></script>
 </body>
 </html>

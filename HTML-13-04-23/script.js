@@ -8,12 +8,17 @@ function validar() {
     number = document.getElementById("number").value;
     genero = document.getElementById("genero").value;
 
-    if(nombre === "") {
+    if(nombre === "", apellidos === "", correo === "", edad === "", country === "", number === "", genero === "" ) {
         alert("El campo esta vacio");
         return false;
     }
-    else if (apellidos === "") {
-        alert("El campo esta vacio");
+    else if(nombre.leght>30) {
+        alert("El nombre es muy largo")
         return false;
     }
+    else if(apellidos.leght>30) {
+        alert("El apellido es muy largo")
+        return false;
+    }
+    
 }
