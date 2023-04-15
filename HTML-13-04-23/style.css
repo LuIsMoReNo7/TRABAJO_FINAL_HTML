@@ -60,7 +60,7 @@ form label input::placeholder{
 
 form button{
     width: 100%;
-    background: rgb(252, 252, 252);
+    background: rgb(128, 84, 139);
     border: none;
     padding: 12px;
     margin: 16px 0;

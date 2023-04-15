@@ -10,5 +10,10 @@ function validar() {
 
     if(nombre === "") {
         alert("El campo esta vacio");
+        return false;
+    }
+    else if (apellidos === "") {
+        alert("El campo esta vacio");
+        return false;
     }
 }
