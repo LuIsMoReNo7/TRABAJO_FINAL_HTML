@@ -22,4 +22,15 @@ iconClose.addEventListener('click', ()=> {
 
 function redireccion(){
     location.href = "imagenes.html"
+
+    function validar (){
+        var email, password;
+        email = document.getElementById('email').value;
+        password = document.getElementById('password').value;
+    
+        if(email === "" || password === "" ){
+            alert("El campo esta vacio");
+            return false;
+        }
+    }
 }
